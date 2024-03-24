@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70A653E32BA99F2F00933877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A653E22BA99F2F00933877 /* AppDelegate.swift */; };
+		70A653E72BA99F2F00933877 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A653E62BA99F2F00933877 /* ViewController.swift */; };
+		70A653EC2BA99F3100933877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A653EB2BA99F3100933877 /* Assets.xcassets */; };
+		70A653EF2BA99F3100933877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A653ED2BA99F3100933877 /* LaunchScreen.storyboard */; };
+		70A653F82BA99F4000933877 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 70A653F72BA99F4000933877 /* SnapKit */; };
+		70A653FA2BA99F4000933877 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 70A653F92BA99F4000933877 /* SnapKit-Dynamic */; };
+		70A653FD2BA99F5100933877 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 70A653FC2BA99F5100933877 /* Alamofire */; };
+		70A653FF2BA99F5100933877 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 70A653FE2BA99F5100933877 /* AlamofireDynamic */; };
+		70A654022BA99FA800933877 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 70A654012BA99FA800933877 /* Realm */; };
+		70A654042BA99FA800933877 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 70A654032BA99FA800933877 /* RealmSwift */; };
+		70A654062BB07CA900933877 /* WarriorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A654052BB07CA900933877 /* WarriorInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70A653DF2BA99F2F00933877 /* WarriorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarriorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A653E22BA99F2F00933877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70A653E62BA99F2F00933877 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70A653EB2BA99F3100933877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70A653EE2BA99F3100933877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70A653F02BA99F3100933877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A654052BB07CA900933877 /* WarriorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarriorInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70A653DC2BA99F2F00933877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A654042BA99FA800933877 /* RealmSwift in Frameworks */,
+				70A653FD2BA99F5100933877 /* Alamofire in Frameworks */,
+				70A653FF2BA99F5100933877 /* AlamofireDynamic in Frameworks */,
+				70A653F82BA99F4000933877 /* SnapKit in Frameworks */,
+				70A653FA2BA99F4000933877 /* SnapKit-Dynamic in Frameworks */,
+				70A654022BA99FA800933877 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70A653D62BA99F2F00933877 = {
+			isa = PBXGroup;
+			children = (
+				70A653E12BA99F2F00933877 /* WarriorGame */,
+				70A653E02BA99F2F00933877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70A653E02BA99F2F00933877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70A653DF2BA99F2F00933877 /* WarriorGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70A653E12BA99F2F00933877 /* WarriorGame */ = {
+			isa = PBXGroup;
+			children = (
+				70A653E22BA99F2F00933877 /* AppDelegate.swift */,
+				70A653E62BA99F2F00933877 /* ViewController.swift */,
+				70A654052BB07CA900933877 /* WarriorInfo.swift */,
+				70A653EB2BA99F3100933877 /* Assets.xcassets */,
+				70A653ED2BA99F3100933877 /* LaunchScreen.storyboard */,
+				70A653F02BA99F3100933877 /* Info.plist */,
+			);
+			path = WarriorGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70A653DE2BA99F2F00933877 /* WarriorGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70A653F32BA99F3100933877 /* Build configuration list for PBXNativeTarget "WarriorGame" */;
+			buildPhases = (
+				70A653DB2BA99F2F00933877 /* Sources */,
+				70A653DC2BA99F2F00933877 /* Frameworks */,
+				70A653DD2BA99F2F00933877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarriorGame;
+			packageProductDependencies = (
+				70A653F72BA99F4000933877 /* SnapKit */,
+				70A653F92BA99F4000933877 /* SnapKit-Dynamic */,
+				70A653FC2BA99F5100933877 /* Alamofire */,
+				70A653FE2BA99F5100933877 /* AlamofireDynamic */,
+				70A654012BA99FA800933877 /* Realm */,
+				70A654032BA99FA800933877 /* RealmSwift */,
+			);
+			productName = WarriorGame;
+			productReference = 70A653DF2BA99F2F00933877 /* WarriorGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70A653D72BA99F2F00933877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					70A653DE2BA99F2F00933877 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 70A653DA2BA99F2F00933877 /* Build configuration list for PBXProject "WarriorGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70A653D62BA99F2F00933877;
+			packageReferences = (
+				70A653F62BA99F4000933877 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				70A653FB2BA99F5100933877 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				70A654002BA99FA800933877 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 70A653E02BA99F2F00933877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70A653DE2BA99F2F00933877 /* WarriorGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70A653DD2BA99F2F00933877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A653EF2BA99F3100933877 /* LaunchScreen.storyboard in Resources */,
+				70A653EC2BA99F3100933877 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70A653DB2BA99F2F00933877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A653E72BA99F2F00933877 /* ViewController.swift in Sources */,
+				70A653E32BA99F2F00933877 /* AppDelegate.swift in Sources */,
+				70A654062BB07CA900933877 /* WarriorInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70A653ED2BA99F3100933877 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70A653EE2BA99F3100933877 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70A653F12BA99F3100933877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70A653F22BA99F3100933877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70A653F42BA99F3100933877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582P6G4A5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WarriorGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.WarriorGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70A653F52BA99F3100933877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 582P6G4A5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WarriorGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.WarriorGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70A653DA2BA99F2F00933877 /* Build configuration list for PBXProject "WarriorGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A653F12BA99F3100933877 /* Debug */,
+				70A653F22BA99F3100933877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70A653F32BA99F3100933877 /* Build configuration list for PBXNativeTarget "WarriorGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70A653F42BA99F3100933877 /* Debug */,
+				70A653F52BA99F3100933877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		70A653F62BA99F4000933877 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		70A653FB2BA99F5100933877 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+		70A654002BA99FA800933877 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		70A653F72BA99F4000933877 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70A653F62BA99F4000933877 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		70A653F92BA99F4000933877 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70A653F62BA99F4000933877 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		70A653FC2BA99F5100933877 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70A653FB2BA99F5100933877 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		70A653FE2BA99F5100933877 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70A653FB2BA99F5100933877 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		70A654012BA99FA800933877 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70A654002BA99FA800933877 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		70A654032BA99FA800933877 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 70A654002BA99FA800933877 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 70A653D72BA99F2F00933877 /* Project object */;
+}
